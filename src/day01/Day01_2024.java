@@ -36,8 +36,8 @@ public class Day01_2024 {
         }
         Collections.sort(leftlist);
         Collections.sort(rightlist);
-        System.out.println(leftlist);
-        System.out.println(rightlist);
+//        System.out.println(leftlist);
+//        System.out.println(rightlist);
 
         for(int i=0; i<leftlist.size(); i++){
             int diff = Math.abs(leftlist.get(i)-rightlist.get(i));

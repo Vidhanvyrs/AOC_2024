@@ -34,8 +34,8 @@ public class Day01_2_2024 {
                 System.out.println("Skipping invalid line" + currentLine);
             }
         }
-        System.out.println(leftlist);
-        System.out.println(rightlist);
+//        System.out.println(leftlist);
+//        System.out.println(rightlist);
 
         for(int num : leftlist) {
             int count = 0;
