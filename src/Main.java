@@ -5,8 +5,9 @@
 //import day03.Day03_2024;
 //import day03.Day03_2_2024;
 
-import day04.Day04_2024;
+//import day04.Day04_2024;
 import day05.Day05_2024;
+import day05.Day05_2_2024;
 
 import java.io.IOException;
 
@@ -18,10 +19,12 @@ public class Main {
 //        Day02_2_2024 day02_2 = new Day02_2_2024();
 //        Day03_2024 day03_2024 = new Day03_2024();
 //        Day03_2_2024 day03_2_2024 = new Day03_2_2024();
+//        Day05_2024 day05 = new Day05_2024();
+//        Day05_2_2024 day05_2 = new Day05_2_2024();
 //        int sum = day03_2024.NorthPoleMultiplier("src/resources/input3.txt");
 //        int sum2 =day03_2_2024.NorthPoleDoMultiplier("src/resources/input3.txt");
-        Day05_2024 day05 = new Day05_2024();
-        int MidSum = day05.CorrectOrder("src/resources/input5.txt");
-        System.out.println(MidSum);
+//        int MidSum = day05.CorrectOrder("src/resources/input5.txt");
+//        int incorrectSum = day05_2.incorrectMidSum("src/resources/input5.txt");
+        System.out.println("DO testing here");
     }
 }

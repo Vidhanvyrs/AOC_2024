@@ -18,15 +18,13 @@ public class Day05_2024 {
                 String[] parts = line.split("\\|");
                 String left = parts[0];
                 String right = parts[1];
-//            if(!map.containsKey(left)){
-//                map.put(left,new HashSet<>());
-//                map.get(left).add(right);
-//            }
-//            if(map.containsKey(left)){
-//                map.get(left).add(right);
-//            }
-                map.putIfAbsent(left, new HashSet<>());
+            if(!map.containsKey(left)){
+                map.put(left,new HashSet<>());
                 map.get(left).add(right);
+            }
+            if(map.containsKey(left)){
+                map.get(left).add(right);
+            }
             }else{
                 processingList = true;
                 if(processingList){
@@ -39,8 +37,8 @@ public class Day05_2024 {
                 }
             }
         }
-        System.out.println(map);
-        System.out.println(list);
+//        System.out.println(map);
+//        System.out.println(list);
 
         List<List<String>> correctOrderList = new ArrayList<>();
         for (var inner : list) {
@@ -59,8 +57,8 @@ public class Day05_2024 {
             }
         }
 
-        System.out.println("Correct Order List:");
-        System.out.println(correctOrderList);
+//        System.out.println("Correct Order List:");
+//        System.out.println(correctOrderList);
 
         for(var orderlist : correctOrderList){
             int left = 0;
